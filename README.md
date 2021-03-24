@@ -6,7 +6,7 @@ Analysis of face recognition algorithm for door access control:
 •	Pass the image through a neural network to measure features of the face. Save those 128 measurements.
 •	Compare the 128 saved measurements of the recently collected face to all images that have measured and stored in the database. See, which person has the closest measurements to our face’s measurements.
 •	If the measurements are less than 0.5 then pass the data collected, to the serial monitor on which Arduino is connected.
-•	If Arduino’s serial monitor will get some input it will open a door for the amount of time required for a person to pass through the door and then will lock it back again 
+•	If Arduino’s serial monitor will get some input it will open a door for the amount of time required for a person to pass through the door and then will lock it back again. 
 
 ![image](https://user-images.githubusercontent.com/70061105/112324708-11d69700-8cd9-11eb-839c-9e2ac6c0da9e.png)
 
